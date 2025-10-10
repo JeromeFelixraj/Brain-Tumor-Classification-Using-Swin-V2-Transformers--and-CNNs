@@ -1,0 +1,29 @@
+Warning⚠️ Read this fully before running the application
+
+Steps to be followed :
+ 1.You don't need to do anything 😁 just double click the exe file(application) and 
+   wait for a few seconds 
+About our model:
+  
+   This project uses a hybrid deep learning model combining a Swin V2-Large Transformer with a custom Convolutional Neural Network (CNN) to accurately classify brain tumors from MRI images. Trained on 5712 high-quality scans and tested on 1300 separate images, the model identifies four tumor types: glioma, meningioma, pituitary, and no tumor. After 7 epochs, it achieved around 96.8% test accuracy, showcasing strong generalization performance. A user-friendly PyQt5 interface allows real-time predictions through simple drag-and-drop functionality
+ 
+  
+  	Training Accuracy: ~93.1%
+
+	Test Accuracy: ~97.02%
+
+	Model Checkpoint Saved As: model/model_epoch_7.pth
+
+	Image Size: 192x192
+
+	Classes: ['glioma', 'meningioma', 'notumor', 'pituitary']
+	
+	Model Type: Hybrid Swin V2-Large + CNN
+
+	Training Data: 5712 MRI images
+
+	Testing Data: 1300 MRI images
+
+
+Data base used :https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
