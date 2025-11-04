@@ -2,6 +2,8 @@ Brain Tumor Classification Using Vision Transformers and CNN Architectures
 Abstract
 
 Brain tumors are among the most critical medical conditions affecting the human central nervous system, with their timely detection and classification being crucial for effective treatment planning and prognosis. This project focuses on developing an automated deep learning–based classification system that utilizes hybrid Vision Transformer (ViT) and Convolutional Neural Network (CNN) architectures to classify brain MRI scans into various tumor categories. The proposed approach leverages the power of convolutional layers for local feature extraction and transformer attention mechanisms for global context understanding. The model is fine-tuned using a publicly available Kaggle dataset containing labeled brain MRI images. Data augmentation, normalization, and advanced regularization techniques are applied to improve generalization and reduce overfitting. The final system achieves a robust and scalable solution capable of assisting radiologists and medical researchers in clinical diagnostics.
+<img width="248" height="341" alt="tumor classificaiton" src="https://github.com/user-attachments/assets/30432703-8758-49a6-b442-0bb87c705e2b" />
+
 
 1. Introduction
 
